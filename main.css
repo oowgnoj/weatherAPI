@@ -33,20 +33,12 @@ body {
 }
 
 .content select {
-  width: 70%;
+  width: 500px;
   height: 150px;
   font-size: 150px;
   background-color: transparent;
   font-family: "Inconsolata";
   font-weight: 700;
-}
-
-select option {
-  background-color: transparent !important;
-  border: 1px solid #e4e4e4;
-  color: #000;
-  -webkit-appearance: none;
-  -moz-appearance: none;
 }
 
 .content .content__display {
@@ -58,4 +50,8 @@ select option {
   font-size: 30px;
   font-family: "Inconsolata";
   font-weight: 700;
+}
+
+.content .content__display i {
+  display: none;
 }
